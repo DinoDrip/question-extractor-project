@@ -13,7 +13,7 @@ topic = "trigonometry"
 output_type=1
 
 #gemini API
-os.environ["API_KEY"] = "AIzaSyBfl8UnfevofHqQi_YCUN2RHqw-DKwSTzs"
+os.environ["API_KEY"] = "API KEY HERE!!!!!!"
 client = genai.Client(api_key=os.environ["API_KEY"])
 
 class Question(BaseModel):
